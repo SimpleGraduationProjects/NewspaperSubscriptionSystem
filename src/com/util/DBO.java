@@ -21,7 +21,7 @@ public class DBO {
 		try 
 		{
 			Class.forName("com.mysql.jdbc.Driver"); 
-			conn=DriverManager.getConnection("jdbc:mysql://localhost:3306/bkzd?useUnicode=true&characterEncoding=utf8","root","123456");
+			conn=DriverManager.getConnection("jdbc:mysql://localhost:3306/graduation_bkzd?useUnicode=true&characterEncoding=utf8","root","123456");
 			stmt=conn.createStatement();
 			System.out.println("打开数据库连接");
 		} 
